@@ -1,0 +1,22 @@
+<h1>
+  To DO List
+</h1>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col"><center>Name Course</center></th>
+      <th scope="col"><center>Duration</center></th>
+      <th scope="col"><center>Fee</center></th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each data}}
+    <tr>
+      <td><center>{{this.courseName}}</center></td>
+      <td><center>{{this.courseDuration}}</center></td>
+      <td><center>{{this.courseFee}}<center></td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table>

@@ -1,0 +1,7 @@
+{
+  "env": {
+    "MONGO_ATLAS_PW": "wida1",
+    "MONGO_ATLAS_USER": "wida1",
+    "MONGO_ATLAS_DB": "coba"
+  }
+}
